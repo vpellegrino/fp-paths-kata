@@ -1,0 +1,20 @@
+{
+  "name": "fp-paths-kata",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clear:all": "rm -rf node_modules/ npm-debug.log",
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "private": true,
+  "dependencies": {
+    "core-js": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.7",
+    "@types/node": "^10.12.18",
+    "jasmine": "^3.3.1",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4"
+  }
+}
